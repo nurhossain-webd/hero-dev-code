@@ -31,6 +31,9 @@
 
 /* main style */
 header {
+    background: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     background-color: #FFF8F3;
     padding-top: 50px;
 
@@ -56,4 +59,42 @@ nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    margin: 46px 38px 0px 230px;
+    max-width: 1332px;
+    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+}
+
+.banner-content p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.banner-img img {
+    max-width: 584px;
+    vertical-align: middle;
 }
