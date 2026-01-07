@@ -65,7 +65,7 @@ nav .menu a {
     display: flex;
     margin: 46px 38px 0px 230px;
     max-width: 1332px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-between;
     align-items: center;
 }
@@ -97,4 +97,103 @@ nav .menu a {
 .banner-img img {
     max-width: 584px;
     vertical-align: middle;
+}
+
+.about {
+    margin-top: 130px;
+}
+
+.about-container {
+    width: 71%;
+    max-width: 1140px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 157px;
+}
+
+.about-me h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-card h4 {
+    font-size: 20px;
+    color: #474747;
+}
+
+.work {
+    margin-top: 130px;
+}
+
+.work-container {
+    max-width: 1088px;
+    margin: 0 auto;
+
+}
+
+.what-i-do {
+    max-width: 827px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.what-i-do h2 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.what-i-do p {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.knowledge {
+    display: flex;
+    gap: 24px;
+
+}
+
+.knowledge-card {
+    padding: 30px;
+
+}
+
+.knowledge-card img {
+    margin-bottom: 30px;
+
+}
+
+.knowledge-card h4 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.knowledge-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
 }
