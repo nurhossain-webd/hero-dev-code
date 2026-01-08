@@ -33,7 +33,7 @@
 header {
     background: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-color: #FFF8F3;
     padding-top: 50px;
 
@@ -196,4 +196,104 @@ nav .menu a {
     color: #757575;
     line-height: 28px;
 
+}
+
+.resume {
+    max-width: 1093px;
+    justify-content: center;
+    margin: 130px auto 0px;
+
+}
+
+.resume h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 113px;
+}
+
+.edu-exp {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+}
+
+.edu-exp hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.edu-exp h2 {
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.edu-exp h3 {
+    font-size: 25px;
+    color: #474747;
+}
+
+.edu-exp h4 {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.edu-exp p {
+    line-height: 28px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fotter-section {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+}
+
+.footer-body {
+    width: 71%;
+    max-width: 1140px;
+    height: 780px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-body h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.connect p {
+
+    color: #474747;
+    margin-bottom: 30px;
+    max-width: 562px;
+}
+
+.social a {
+    margin-right: 24px;
+}
+
+.message input {
+    display: block;
+    width: 461px;
+    height: 64px;
+    padding: 18px;
+    margin-bottom: 24px;
+    border: none;
+    color: #757575;
+}
+
+.text-area {
+    width: 461px;
+    height: 180px;
+    border: none;
+    padding: 18px;
+    margin-bottom: 24px;
 }
